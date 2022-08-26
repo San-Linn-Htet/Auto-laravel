@@ -38,7 +38,7 @@
             <input type="number" name="day" class="form-control" max="30" min="1" placeholder="Day" default="">
           </div>
           <div class="col-12 py-2 wow fadeInUp" data-wow-delay="300ms">
-            <input type="text" name="number" class="form-control" placeholder="Number..">
+            <input type="text" name="number" class="form-control" placeholder="Car Number..">
           </div>
           <div class="col-12 py-2 wow fadeInUp" data-wow-delay="300ms">
             <textarea name="messsage" id="message" class="form-control" rows="6" placeholder="notes"></textarea>

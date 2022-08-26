@@ -17,9 +17,9 @@ class HomeController extends Controller
         {
             if(Auth::user()->usertype=='0')
             {
-                $admins = admin::all();
+                $admin = admin::all();
 
-                return view('user.home', compact('admins'));
+                return view('user.home', compact('admin'));
             }
             else
             {
@@ -42,9 +42,9 @@ class HomeController extends Controller
 
         else
         {
-            $admins = admin::all();
+            $admin = admin::all();
 
-            return view('user.home', compact('admins'));
+            return view('user.home', compact('admin'));
 
         }
 
